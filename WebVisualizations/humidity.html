@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Bootstrap Visualization Dashboard</title>
+  <title>Weather Data Visualization</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -34,9 +34,9 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
-              <a class="dropdown-item active" href="humidity.html">Humidity</a>
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
               <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
             </div>
           </li>
@@ -71,25 +71,24 @@
           <h5 class="title">Visualizations</h5>
           <hr>
 
-
           <div class="container">
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
-                <a href="max_temperature.html">
-                  <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
+                <a href="cloudiness.html">
+                  <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
                 </a>
               </div>
               <div class="col-6">
                 <a href="humidity.html">
-                  <img class="panel active" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+                  <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
 
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
-                <a href="cloudiness.html">
-                  <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+                <a href="max_temperature.html">
+                  <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
                 </a>
               </div>
               <div class="col-6">
@@ -107,7 +106,6 @@
       </div>
     </div>
   </div>
-
   
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
